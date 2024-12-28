@@ -10,7 +10,7 @@ export default class SpeechRecognizer {
   constructor() {
     this.recognizer = new webkitSpeechRecognition()
 
-    this.recognizer.lang = "en-US"
+    this.recognizer.lang = "de-DE"
     this.recognizer.continuous = true
     this.recognizer.interimResults = true
 
